@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{%extends 'tourguideportal/base1.html'%}
+      {%block child_block%}
+      <div class="container" align='centre'>
+        <h1>Signup to Enjoy Facilities</h1><hr>
+        
+        <form method="post">
+           
+          {{form.as_p}}
+          
+          {%csrf_token%}
+          <input type="submit" class='btn btn-primary' value="Signup">
+
+        </form>
+    
+
+      </div>
+
+      {%endblock%}

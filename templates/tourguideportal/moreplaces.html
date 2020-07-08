@@ -1,0 +1,83 @@
+<!doctype html>
+{%extends 'tourguideportal/base.html'%}
+{%load static%}
+{%block body_block%}
+<!-- header-start -->
+<header>
+    <div class="header-area ">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid">
+                <div class="header_bottom_border">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="/">
+                                    <img src="{%static 'img/tg.png'%}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="/">home</a></li>
+
+                                      <li><a href="/contact">Contact</a></li>
+                                        <li><a href="/about">AboutUs</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 d-none d-lg-block">
+                            <div class="social_wrap d-flex align-items-center justify-content-end">
+
+                                <div class="social_links d-none d-xl-block">
+                                    <ul>
+                                    
+                                        <li><a target="_blank" href="/accounts/logout">Logout</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header-end -->
+    <div class="destination_banner_wrap overlay mpi">
+        <div class="destination_text text-center">
+            <h3>More Places In Vizag</h3>
+            <a target="_blank" href="https://www.bing.com/search?q=travel+vizag&qs=n&form=QBRE&sp=-1&ghc=1&pq=travel+vizag&sc=1-12&sk=&cvid=B48A70C619EE4D669F688AA73E8984D8"><p>click here for location!</p></a>
+        </div>
+    </div>
+
+    <div class="destination_details_info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-9">
+                    <div class="destination_info">
+                        <h3>Description</h3>
+                        <h4>Temples</h4>
+                        <h4>Places</h4>
+                        <h4>Pubs & Disco's</h4>
+                        <h4>Restaurants</h4>
+                        <h4>Night Life and etc</h4>
+                        <h4>more..</h4>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    {%endblock%}
+
+    

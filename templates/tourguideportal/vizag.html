@@ -1,0 +1,192 @@
+<!doctype html>
+{%extends 'tourguideportal/base.html'%}
+{%load static%}
+{%block body_block%}
+<!-- header-start -->
+<header>
+    <div class="header-area ">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid">
+                <div class="header_bottom_border">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="/">
+                                    <img src="{%static 'img/tg.png'%}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="/">home</a></li>
+
+                                      <li><a href="/contact">Contact</a></li>
+                                        <li><a href="/about">AboutUs</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 d-none d-lg-block">
+                            <div class="social_wrap d-flex align-items-center justify-content-end">
+
+                                <div class="social_links d-none d-xl-block">
+                                    <ul>
+                                    
+                                        <li><a target="_blank" href="/accounts/logout">Logout</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header-end -->
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="slider_active owl-carousel">
+            <div class="single_slider  d-flex align-items-center bradcam_bg_20 overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-12 col-md-12">
+                            <div class="slider_text text-center">
+                                <h3>Visakhapatnam</h3>
+                                <a target="_blank" href="https://www.bing.com/maps?q=vizag&cvid=5392322748614d9ea2e52d565f54cbbf&PC=U531"><p>The city of destiny.</p></a>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- places in vizag -->
+            <div class="single_slider  d-flex align-items-center bradcam_bg_21 overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-12 col-md-12">
+                            <div class="slider_text text-center">
+                                <h3>Beach Road</h3>
+                                <p></p>
+                                <a href="/beachroad" class="boxed-btn3">Explore Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider  d-flex align-items-center bradcam_bg_22 overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-12 col-md-12">
+                            <div class="slider_text text-center">
+                                <h3>Kailasagiri</h3>
+                                <p></p>
+                                <a href="/kailasagiri" class="boxed-btn3">Explore Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- slider_area_end -->
+
+    
+
+    
+<!-- popular_destination_area_start  -->
+<div class="popular_destination_area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section_title text-center mb_70">
+                    <h3>Popular Places</h3>
+                    <p>Stunning places to visit in Vizag.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single_destination">
+                    <div class="thumb">
+                        <img src="{%static 'img/destination/araku1.png'%}" alt="">
+                    </div>
+                    <div class="content">
+                         <a href="/araku"><p>Araku</p></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single_destination">
+                    <div class="thumb">
+                        <img src="{%static 'img/destination/rushi1.png'%}" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="/rushikonda"><p>Rushikonda</p></a> 
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single_destination">
+                    <div class="thumb">
+                        <img src="{%static 'img/destination/harbour.png'%}" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="/harbour"><p>Vizag Harbour</p></a> 
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single_destination">
+                    <div class="thumb">
+                        <img src="{%static 'img/destination/park.png'%}" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="/vparks"><p>Parks</p></a> 
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single_destination">
+                    <div class="thumb">
+                        <img src="{%static 'img/destination/hotel.png'%}" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="/vhotels"><p>Hotels</p></a> 
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="single_destination">
+                    <div class="thumb">
+                        <img src="{%static 'img/destination/more.png'%}" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="/moreplaces"><p>More Places</p></a> 
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- popular_destination_area_end  -->
+
+{%endblock%}
+

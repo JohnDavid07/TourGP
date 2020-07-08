@@ -1,0 +1,87 @@
+<!doctype html>
+{%extends 'tourguideportal/base.html'%}
+{%load static%}
+{%block body_block%}
+<!-- header-start -->
+<header>
+    <div class="header-area ">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid">
+                <div class="header_bottom_border">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="/">
+                                    <img src="{%static 'img/tg.png'%}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="/">home</a></li>
+
+                                      <li><a href="/contact">Contact</a></li>
+                                        <li><a href="/about">AboutUs</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 d-none d-lg-block">
+                            <div class="social_wrap d-flex align-items-center justify-content-end">
+
+                                <div class="social_links d-none d-xl-block">
+                                    <ul>
+                                    
+                                        <li><a  href="/accounts/logout">Logout</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header-end -->
+    <div class="destination_banner_wrap overlay pi">
+        <div class="destination_text text-center">
+            <h3>Parks In Vizag</h3>
+            <a target="_blank" href="https://www.bing.com/maps?q=parks+in+vizag&FORM=HDRSC1"><p>click here for location!</p></a>
+        </div>
+    </div>
+
+    <div class="destination_details_info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-9">
+                    <div class="destination_info">
+                        <h3>Description</h3>
+                        <h4>Indira Gandhi Zoological Park</h4>
+                        <p>Indira Gandhi Zoological Park is located amidst Kambalakonda Reserve Forest in Visakhapatnam, Andhra Pradesh, India. It is the third largest zoo in the country.[2][3]
+
+                            The zoological park is named after the former Prime Minister of India, Indira Gandhi. It was declared open to the public on 19 May 1977.[4] It covers an area of 625 acres (253 ha). It is situated in Visakhapatnam amidst the scenic Eastern Ghats of India. It is surrounded by the Eastern Ghats on three sides and Bay of Bengal on the fourth side. Nearly eighty species of animals numbering to about eight hundred are present in the zoo. The Zoo Park has different sections for primates, carnivores, lesser carnivores, small mammals, reptiles, ungulates and birds caged in their natural ambiance.
+                            
+                            The zoo park is about 11 kilometres (6.8 mi) from the Visakhapatnam railway station on the National Highway 5 near Madhurawada. It has entrance and exit gates situated oppositely, with one towards National Highway 5 and the other towards Beach Road at Sagar Nagar. It is open to public daily except Monday.</p>
+                        <h4>Tenneti Park</h4>
+                        <p>Tenneti Park also known as (Vuda Tenneti Park) is an Urban park in the city of Visakhapatnam,[1] India. Situated on the Beach Road in Jodugullapalem,[2] it the first children's park, and one of the oldest parks in the city. It is located beside Sea Shore of Bay of Bengal. GVMC installed LED screens in the park to boost Tourism in the city.</p>
+                        <h4>VUDA Park</h4>
+                        <p>VUDA Park now VMRDA Park is an urban park located near RK Beach in Visakhapatnam, Andhra Pradesh, India. It is operated by the Visakhapatnam Metropolitan Region Development Authority.</p>
+                        
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+{%endblock%}

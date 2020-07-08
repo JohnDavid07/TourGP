@@ -1,0 +1,81 @@
+<!doctype html>
+{%extends 'tourguideportal/base.html'%}
+{%load static%}
+{%block body_block%}
+<!-- header-start -->
+<header>
+    <div class="header-area ">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid">
+                <div class="header_bottom_border">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="/">
+                                    <img src="{%static 'img/tg.png'%}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="/">home</a></li>
+
+                                      <li><a href="/contact">Contact</a></li>
+                                        <li><a href="/about">AboutUs</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 d-none d-lg-block">
+                            <div class="social_wrap d-flex align-items-center justify-content-end">
+
+                                <div class="social_links d-none d-xl-block">
+                                    <ul>
+                                    
+                                        <li><a target="_blank" href="/accounts/logout">Logout</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header-end -->
+    <div class="destination_banner_wrap overlay ki">
+        <div class="destination_text text-center">
+            <h3>Kailasagiri</h3>
+            <a target="_blank" href="https://www.bing.com/maps?&ty=18&q=kailasagiri&ppois=17.749187469482422_83.34225463867188_kailasagiri_~&cp=17.749187~83.342255&v=2&sV=1"><p>click here for location!</p></a>
+        </div>
+    </div>
+
+    <div class="destination_details_info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-9">
+                    <div class="destination_info">
+                        <h3>Description</h3>
+                        <p>Kailasagiri is a hilltop park in the city of Visakhapatnam in the Indian state of Andhra Pradesh. The park was developed by the Visakhapatnam Metropolitan Region Development Authority (VMRDA) and comprises 380 acres (150 ha) of land covered with flora and tropical trees. The hill, at 173 metres (568 ft), overlooks the city of Visakhapatnam.
+
+                            The Government of Andhra Pradesh awarded Kailasagiri as its "Best Tourist Spot" in 2003. On average, around three hundred thousand Indian and foreign tourists visit the park every year. To protect the environment, VMRDA has declared the hill a plastic-free zone. A cable car connects to the top of the hill, the first of its kind in Andhra Pradesh. Kailasagiri is located around 10 kms from the Visakhapatnam Railway Station and around 8 kms from Visakhapatnam APSRTC Bus Station.</p>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {%endblock%}
+
+    
